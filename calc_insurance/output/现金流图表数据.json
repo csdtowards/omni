@@ -1,0 +1,556 @@
+{
+  "bases": [
+    7546,
+    12577,
+    37731
+  ],
+  "years": [
+    15,
+    20,
+    25,
+    30,
+    35,
+    38
+  ],
+  "colors": {
+    "15": "#2563eb",
+    "20": "#0d9488",
+    "25": "#d97706",
+    "30": "#b453c7",
+    "35": "#dc4f55",
+    "38": "#4f46b8"
+  },
+  "retirement_age": 60,
+  "pension_base": 12577,
+  "divisor": 139,
+  "min_age": 22,
+  "max_age": 100,
+  "default_end_age": 85,
+  "scopes": [
+    {
+      "id": "personal",
+      "label": "个人缴费8%",
+      "rate": 0.08
+    },
+    {
+      "id": "combined",
+      "label": "个人加单位24%",
+      "rate": 0.24
+    }
+  ],
+  "scenarios": [
+    {
+      "id": "b7546-y15",
+      "base": 7546,
+      "years": 15,
+      "start_age": 45,
+      "monthly_pension": 2290.9688848920864,
+      "basic_pension": 1509.225,
+      "personal_pension": 781.7438848920864,
+      "account_balance": 108662.4,
+      "costs": {
+        "personal": {
+          "monthly": 603.68,
+          "total": 108662.4,
+          "break_even_months": 48,
+          "break_even_age_month": 768,
+          "break_even_label": "64岁",
+          "continuous_zero_age": 63.95256350259272
+        },
+        "combined": {
+          "monthly": 1811.04,
+          "total": 325987.2,
+          "break_even_months": 143,
+          "break_even_age_month": 863,
+          "break_even_label": "71岁11个月",
+          "continuous_zero_age": 71.85769050777816
+        }
+      }
+    },
+    {
+      "id": "b7546-y20",
+      "base": 7546,
+      "years": 20,
+      "start_age": 40,
+      "monthly_pension": 3054.625179856115,
+      "basic_pension": 2012.3,
+      "personal_pension": 1042.325179856115,
+      "account_balance": 144883.2,
+      "costs": {
+        "personal": {
+          "monthly": 603.68,
+          "total": 144883.2,
+          "break_even_months": 48,
+          "break_even_age_month": 768,
+          "break_even_label": "64岁",
+          "continuous_zero_age": 63.95256350259272
+        },
+        "combined": {
+          "monthly": 1811.04,
+          "total": 434649.6,
+          "break_even_months": 143,
+          "break_even_age_month": 863,
+          "break_even_label": "71岁11个月",
+          "continuous_zero_age": 71.85769050777816
+        }
+      }
+    },
+    {
+      "id": "b7546-y25",
+      "base": 7546,
+      "years": 25,
+      "start_age": 35,
+      "monthly_pension": 3818.281474820144,
+      "basic_pension": 2515.375,
+      "personal_pension": 1302.9064748201438,
+      "account_balance": 181104.0,
+      "costs": {
+        "personal": {
+          "monthly": 603.68,
+          "total": 181104.0,
+          "break_even_months": 48,
+          "break_even_age_month": 768,
+          "break_even_label": "64岁",
+          "continuous_zero_age": 63.95256350259272
+        },
+        "combined": {
+          "monthly": 1811.04,
+          "total": 543312.0,
+          "break_even_months": 143,
+          "break_even_age_month": 863,
+          "break_even_label": "71岁11个月",
+          "continuous_zero_age": 71.85769050777816
+        }
+      }
+    },
+    {
+      "id": "b7546-y30",
+      "base": 7546,
+      "years": 30,
+      "start_age": 30,
+      "monthly_pension": 4581.937769784173,
+      "basic_pension": 3018.45,
+      "personal_pension": 1563.4877697841728,
+      "account_balance": 217324.8,
+      "costs": {
+        "personal": {
+          "monthly": 603.68,
+          "total": 217324.8,
+          "break_even_months": 48,
+          "break_even_age_month": 768,
+          "break_even_label": "64岁",
+          "continuous_zero_age": 63.95256350259272
+        },
+        "combined": {
+          "monthly": 1811.04,
+          "total": 651974.4,
+          "break_even_months": 143,
+          "break_even_age_month": 863,
+          "break_even_label": "71岁11个月",
+          "continuous_zero_age": 71.85769050777816
+        }
+      }
+    },
+    {
+      "id": "b7546-y35",
+      "base": 7546,
+      "years": 35,
+      "start_age": 25,
+      "monthly_pension": 5345.594064748201,
+      "basic_pension": 3521.525,
+      "personal_pension": 1824.0690647482015,
+      "account_balance": 253545.6,
+      "costs": {
+        "personal": {
+          "monthly": 603.68,
+          "total": 253545.6,
+          "break_even_months": 48,
+          "break_even_age_month": 768,
+          "break_even_label": "64岁",
+          "continuous_zero_age": 63.95256350259272
+        },
+        "combined": {
+          "monthly": 1811.04,
+          "total": 760636.8,
+          "break_even_months": 143,
+          "break_even_age_month": 863,
+          "break_even_label": "71岁11个月",
+          "continuous_zero_age": 71.85769050777816
+        }
+      }
+    },
+    {
+      "id": "b7546-y38",
+      "base": 7546,
+      "years": 38,
+      "start_age": 22,
+      "monthly_pension": 5803.787841726618,
+      "basic_pension": 3823.37,
+      "personal_pension": 1980.4178417266187,
+      "account_balance": 275278.08,
+      "costs": {
+        "personal": {
+          "monthly": 603.68,
+          "total": 275278.08,
+          "break_even_months": 48,
+          "break_even_age_month": 768,
+          "break_even_label": "64岁",
+          "continuous_zero_age": 63.95256350259272
+        },
+        "combined": {
+          "monthly": 1811.04,
+          "total": 825834.24,
+          "break_even_months": 143,
+          "break_even_age_month": 863,
+          "break_even_label": "71岁11个月",
+          "continuous_zero_age": 71.85769050777816
+        }
+      }
+    },
+    {
+      "id": "b12577-y15",
+      "base": 12577,
+      "years": 15,
+      "start_age": 45,
+      "monthly_pension": 3189.4910071942445,
+      "basic_pension": 1886.55,
+      "personal_pension": 1302.9410071942445,
+      "account_balance": 181108.8,
+      "costs": {
+        "personal": {
+          "monthly": 1006.16,
+          "total": 181108.8,
+          "break_even_months": 57,
+          "break_even_age_month": 777,
+          "break_even_label": "64岁9个月",
+          "continuous_zero_age": 64.73191489361702
+        },
+        "combined": {
+          "monthly": 3018.48,
+          "total": 543326.4,
+          "break_even_months": 171,
+          "break_even_age_month": 891,
+          "break_even_label": "74岁3个月",
+          "continuous_zero_age": 74.19574468085106
+        }
+      }
+    },
+    {
+      "id": "b12577-y20",
+      "base": 12577,
+      "years": 20,
+      "start_age": 40,
+      "monthly_pension": 4252.654676258992,
+      "basic_pension": 2515.4,
+      "personal_pension": 1737.2546762589927,
+      "account_balance": 241478.4,
+      "costs": {
+        "personal": {
+          "monthly": 1006.16,
+          "total": 241478.4,
+          "break_even_months": 57,
+          "break_even_age_month": 777,
+          "break_even_label": "64岁9个月",
+          "continuous_zero_age": 64.73191489361702
+        },
+        "combined": {
+          "monthly": 3018.48,
+          "total": 724435.2,
+          "break_even_months": 171,
+          "break_even_age_month": 891,
+          "break_even_label": "74岁3个月",
+          "continuous_zero_age": 74.19574468085106
+        }
+      }
+    },
+    {
+      "id": "b12577-y25",
+      "base": 12577,
+      "years": 25,
+      "start_age": 35,
+      "monthly_pension": 5315.818345323741,
+      "basic_pension": 3144.25,
+      "personal_pension": 2171.568345323741,
+      "account_balance": 301848.0,
+      "costs": {
+        "personal": {
+          "monthly": 1006.16,
+          "total": 301848.0,
+          "break_even_months": 57,
+          "break_even_age_month": 777,
+          "break_even_label": "64岁9个月",
+          "continuous_zero_age": 64.73191489361702
+        },
+        "combined": {
+          "monthly": 3018.48,
+          "total": 905544.0,
+          "break_even_months": 171,
+          "break_even_age_month": 891,
+          "break_even_label": "74岁3个月",
+          "continuous_zero_age": 74.19574468085106
+        }
+      }
+    },
+    {
+      "id": "b12577-y30",
+      "base": 12577,
+      "years": 30,
+      "start_age": 30,
+      "monthly_pension": 6378.982014388489,
+      "basic_pension": 3773.1,
+      "personal_pension": 2605.882014388489,
+      "account_balance": 362217.6,
+      "costs": {
+        "personal": {
+          "monthly": 1006.16,
+          "total": 362217.6,
+          "break_even_months": 57,
+          "break_even_age_month": 777,
+          "break_even_label": "64岁9个月",
+          "continuous_zero_age": 64.73191489361702
+        },
+        "combined": {
+          "monthly": 3018.48,
+          "total": 1086652.8,
+          "break_even_months": 171,
+          "break_even_age_month": 891,
+          "break_even_label": "74岁3个月",
+          "continuous_zero_age": 74.19574468085106
+        }
+      }
+    },
+    {
+      "id": "b12577-y35",
+      "base": 12577,
+      "years": 35,
+      "start_age": 25,
+      "monthly_pension": 7442.145683453237,
+      "basic_pension": 4401.95,
+      "personal_pension": 3040.1956834532375,
+      "account_balance": 422587.2,
+      "costs": {
+        "personal": {
+          "monthly": 1006.16,
+          "total": 422587.2,
+          "break_even_months": 57,
+          "break_even_age_month": 777,
+          "break_even_label": "64岁9个月",
+          "continuous_zero_age": 64.73191489361702
+        },
+        "combined": {
+          "monthly": 3018.48,
+          "total": 1267761.6,
+          "break_even_months": 171,
+          "break_even_age_month": 891,
+          "break_even_label": "74岁3个月",
+          "continuous_zero_age": 74.19574468085106
+        }
+      }
+    },
+    {
+      "id": "b12577-y38",
+      "base": 12577,
+      "years": 38,
+      "start_age": 22,
+      "monthly_pension": 8080.043884892087,
+      "basic_pension": 4779.26,
+      "personal_pension": 3300.7838848920865,
+      "account_balance": 458808.96,
+      "costs": {
+        "personal": {
+          "monthly": 1006.16,
+          "total": 458808.96,
+          "break_even_months": 57,
+          "break_even_age_month": 777,
+          "break_even_label": "64岁9个月",
+          "continuous_zero_age": 64.73191489361702
+        },
+        "combined": {
+          "monthly": 3018.48,
+          "total": 1376426.88,
+          "break_even_months": 171,
+          "break_even_age_month": 891,
+          "break_even_label": "74岁3个月",
+          "continuous_zero_age": 74.19574468085106
+        }
+      }
+    },
+    {
+      "id": "b37731-y15",
+      "base": 37731,
+      "years": 15,
+      "start_age": 45,
+      "monthly_pension": 7681.923021582734,
+      "basic_pension": 3773.1,
+      "personal_pension": 3908.823021582734,
+      "account_balance": 543326.4,
+      "costs": {
+        "personal": {
+          "monthly": 3018.48,
+          "total": 543326.4,
+          "break_even_months": 71,
+          "break_even_age_month": 791,
+          "break_even_label": "65岁11个月",
+          "continuous_zero_age": 65.89399293286219
+        },
+        "combined": {
+          "monthly": 9055.44,
+          "total": 1629979.2,
+          "break_even_months": 213,
+          "break_even_age_month": 933,
+          "break_even_label": "77岁9个月",
+          "continuous_zero_age": 77.68197879858657
+        }
+      }
+    },
+    {
+      "id": "b37731-y20",
+      "base": 37731,
+      "years": 20,
+      "start_age": 40,
+      "monthly_pension": 10242.564028776978,
+      "basic_pension": 5030.8,
+      "personal_pension": 5211.764028776978,
+      "account_balance": 724435.2,
+      "costs": {
+        "personal": {
+          "monthly": 3018.48,
+          "total": 724435.2,
+          "break_even_months": 71,
+          "break_even_age_month": 791,
+          "break_even_label": "65岁11个月",
+          "continuous_zero_age": 65.89399293286219
+        },
+        "combined": {
+          "monthly": 9055.44,
+          "total": 2173305.6,
+          "break_even_months": 213,
+          "break_even_age_month": 933,
+          "break_even_label": "77岁9个月",
+          "continuous_zero_age": 77.68197879858657
+        }
+      }
+    },
+    {
+      "id": "b37731-y25",
+      "base": 37731,
+      "years": 25,
+      "start_age": 35,
+      "monthly_pension": 12803.205035971223,
+      "basic_pension": 6288.5,
+      "personal_pension": 6514.705035971223,
+      "account_balance": 905544.0,
+      "costs": {
+        "personal": {
+          "monthly": 3018.48,
+          "total": 905544.0,
+          "break_even_months": 71,
+          "break_even_age_month": 791,
+          "break_even_label": "65岁11个月",
+          "continuous_zero_age": 65.89399293286219
+        },
+        "combined": {
+          "monthly": 9055.44,
+          "total": 2716632.0,
+          "break_even_months": 213,
+          "break_even_age_month": 933,
+          "break_even_label": "77岁9个月",
+          "continuous_zero_age": 77.68197879858657
+        }
+      }
+    },
+    {
+      "id": "b37731-y30",
+      "base": 37731,
+      "years": 30,
+      "start_age": 30,
+      "monthly_pension": 15363.846043165468,
+      "basic_pension": 7546.2,
+      "personal_pension": 7817.646043165468,
+      "account_balance": 1086652.8,
+      "costs": {
+        "personal": {
+          "monthly": 3018.48,
+          "total": 1086652.8,
+          "break_even_months": 71,
+          "break_even_age_month": 791,
+          "break_even_label": "65岁11个月",
+          "continuous_zero_age": 65.89399293286219
+        },
+        "combined": {
+          "monthly": 9055.44,
+          "total": 3259958.4,
+          "break_even_months": 213,
+          "break_even_age_month": 933,
+          "break_even_label": "77岁9个月",
+          "continuous_zero_age": 77.68197879858657
+        }
+      }
+    },
+    {
+      "id": "b37731-y35",
+      "base": 37731,
+      "years": 35,
+      "start_age": 25,
+      "monthly_pension": 17924.487050359712,
+      "basic_pension": 8803.9,
+      "personal_pension": 9120.587050359713,
+      "account_balance": 1267761.6,
+      "costs": {
+        "personal": {
+          "monthly": 3018.48,
+          "total": 1267761.6,
+          "break_even_months": 71,
+          "break_even_age_month": 791,
+          "break_even_label": "65岁11个月",
+          "continuous_zero_age": 65.89399293286219
+        },
+        "combined": {
+          "monthly": 9055.44,
+          "total": 3803284.8,
+          "break_even_months": 213,
+          "break_even_age_month": 933,
+          "break_even_label": "77岁9个月",
+          "continuous_zero_age": 77.68197879858657
+        }
+      }
+    },
+    {
+      "id": "b37731-y38",
+      "base": 37731,
+      "years": 38,
+      "start_age": 22,
+      "monthly_pension": 19460.87165467626,
+      "basic_pension": 9558.52,
+      "personal_pension": 9902.351654676258,
+      "account_balance": 1376426.88,
+      "costs": {
+        "personal": {
+          "monthly": 3018.48,
+          "total": 1376426.88,
+          "break_even_months": 71,
+          "break_even_age_month": 791,
+          "break_even_label": "65岁11个月",
+          "continuous_zero_age": 65.89399293286219
+        },
+        "combined": {
+          "monthly": 9055.44,
+          "total": 4129280.64,
+          "break_even_months": 213,
+          "break_even_age_month": 933,
+          "break_even_label": "77岁9个月",
+          "continuous_zero_age": 77.68197879858657
+        }
+      }
+    }
+  ],
+  "assumptions": [
+    "三档月缴费基数全程固定为7,546、12,577、37,731元；35年、38年情景不使用历史基数。",
+    "个人缴费8%，单位缴费16%，个人账户计入8%；第二种成本包含两者合计24%。",
+    "60岁退休，计发月数139；养老金计发基数暂取12,577元/月，为用户确认的演算参数。",
+    "不计记账利息、工资增长、养老金年度调整及折现，不含过渡性养老金。",
+    "60岁时已缴完全部费用，尚未领取首月养老金；之后每月领金，模型持续计算至100岁。",
+    "139仅用于计算月养老金，不表示领满139个月后停止领取。",
+    "回正年龄为累计现金流首次非负的月末；起缴前不画线，年度值是整岁时点的累计额。"
+  ]
+}

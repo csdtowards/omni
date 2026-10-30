@@ -1,0 +1,12 @@
+{
+  "status": "conditional_estimate",
+  "scenario_count": 16,
+  "scenarios_with_total_pension": 16,
+  "scenarios_with_paid_totals": 16,
+  "scenarios_with_forecast": 16,
+  "issues": [
+    "60岁适用计发月数139：当前作为待核验计算假设",
+    "退休资格与起领时间：须核对弹性提前退休条件，不视为已确认可退休"
+  ],
+  "note": "status只检查录入信息，不能自动确认来源的真实性。"
+}

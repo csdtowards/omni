@@ -1,0 +1,15 @@
+{
+  "annual_rows": 34,
+  "years_missing_effective_dates": [],
+  "months_mapped": 360,
+  "months_not_mapped": 0,
+  "forecast_months": [
+    "2027-07"
+  ],
+  "effective_date_policy": "只映射填写了生效起止月份的区间；不假设自然年度",
+  "early_year_reference_policy": "用户确认：1993—1997年按上限÷2推算100%基准；300%档受上限约束",
+  "later_year_reference_policy": "1998年起按上限÷3推算100%基准；60%档与最低基数单独列示",
+  "source_status": "user_provided_not_independently_verified",
+  "pension_base": "经用户同意以12577元作演算假设，未核定为官方计发基数",
+  "2027": "7月沿用最近年度（预测）"
+}
